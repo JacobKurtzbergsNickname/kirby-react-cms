@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run Chrome",
+        "type": "chrome",
+        "request": "launch",
+        "url": "http://localhost:3000",
+        "webRoot": "${workspaceFolder}/src",
+        // "sourceMapPathOverrides": {
+        //   // Default
+        //   // "webpack:///src/*": "${webRoot}/*"
+
+        // // Stand im RayGun-Guide? - https://raygun.com/blog/react-debugging-guide/
+        // // "webpack:///src/*": "${webRoot}/src"
+        // }
+      }
+    ]
+  }
+  
